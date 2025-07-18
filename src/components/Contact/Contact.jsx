@@ -1,10 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 function Contact() {
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  useEffect(() => {
+    const title = document.getElementById("title");
+    title.innerHTML = "Contact";
+  }, []);
   return (
     <section className="py-10">
       <h2 className="text-[#2C3E50] text-[30px] font-bold mb-4 text-center">

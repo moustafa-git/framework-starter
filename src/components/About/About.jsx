@@ -1,5 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect } from "react";
 function About() {
+  useEffect(() => {
+    const title = document.getElementById("title");
+    title.innerHTML = "About";
+  }, []);
   return (
     <section className="bg-[#1ABC9C] px-12 py-28">
       <h2 className="text-white text-[30px] font-bold mb-4 text-center">

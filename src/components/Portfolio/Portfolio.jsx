@@ -5,6 +5,10 @@ function Portfolio() {
   const [isModal, setIsModal] = useState(false);
 
   useEffect(() => {
+    const title = document.getElementById("title");
+    title.innerHTML = "Portfolio";
+  }, []);
+  useEffect(() => {
     function handleClick() {
       if (isModal) {
         setIsModal(false);

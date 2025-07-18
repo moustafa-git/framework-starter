@@ -1,5 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect } from "react";
 function Home() {
+  useEffect(() => {
+    const title = document.getElementById("title");
+    title.innerHTML = "Home";
+  }, []);
   return (
     <section className="bg-[#1ABC9C] p-20">
       <div className="flex flex-wrap justify-center items-center flex-col">
