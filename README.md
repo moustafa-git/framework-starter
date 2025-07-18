@@ -11,7 +11,7 @@
 
 ## 🚀 Live Demo
 
-Try the weather app now: [weather-netlify](https://chic-salamander-57c83c.netlify.app/)
+Try the app now: [demo](https://starter-frame.netlify.app/)
 
 ![Logo](./public/1.png)
 ![Logo](./public/2.png)
