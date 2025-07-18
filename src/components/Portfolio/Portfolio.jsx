@@ -47,7 +47,7 @@ function Portfolio() {
           >
             <div className="md:w-10/12 relative">
               <img
-                src="src\assets\poert1.png"
+                src="/poert1.png"
                 alt="img"
                 className=" w-full  block rounded-lg mx-auto relative"
               ></img>
@@ -70,7 +70,7 @@ function Portfolio() {
           >
             <div className="md:w-10/12 relative">
               <img
-                src="src\assets\poert1.png"
+                src="/poert1.png"
                 alt="img"
                 className=" w-full  block rounded-lg mx-auto relative"
               ></img>
@@ -93,7 +93,7 @@ function Portfolio() {
           >
             <div className="md:w-10/12 relative">
               <img
-                src="src\assets\poert1.png"
+                src="/poert1.png"
                 alt="img"
                 className=" w-full  block rounded-lg mx-auto relative"
               ></img>
@@ -116,7 +116,7 @@ function Portfolio() {
           >
             <div className="md:w-10/12 relative">
               <img
-                src="src\assets\poert1.png"
+                src="/poert1.png"
                 alt="img"
                 className=" w-full  block rounded-lg mx-auto relative"
               ></img>
@@ -139,7 +139,7 @@ function Portfolio() {
           >
             <div className="md:w-10/12 relative">
               <img
-                src="src\assets\poert1.png"
+                src="/poert1.png"
                 alt="img"
                 className=" w-full  block rounded-lg mx-auto relative"
               ></img>
@@ -162,7 +162,7 @@ function Portfolio() {
           >
             <div className="md:w-10/12 relative">
               <img
-                src="src\assets\poert1.png"
+                src="/poert1.png"
                 alt="img"
                 className=" w-full  block rounded-lg mx-auto relative"
               ></img>

@@ -9,11 +9,7 @@ function Home() {
     <section className="bg-[#1ABC9C] p-20">
       <div className="flex flex-wrap justify-center items-center flex-col">
         <figure className="w-62 mb-5">
-          <img
-            src="src\assets\avatar.svg"
-            alt="avatar"
-            className="w-full block"
-          />
+          <img src="/avatar.svg" alt="avatar" className="w-full block" />
         </figure>
         <figcaption>
           <h2 className="text-white text-[30px] font-bold mb-4">
